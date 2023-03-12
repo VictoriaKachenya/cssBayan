@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans&family=Poppins&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+font-size: 1.5rem;
+background-color: #ab96a5;
+width: 100vh;
+}
+
+.header{
+font-size: 3.5rem;
+color: #1d1919;
+}
+
+.header__div{
+padding: 0 2rem;
+margin: 0 auto;
+max-width: 100vh;
+}
+
+.main__div{
+    display: block;
+    border-top: 0.5rem solid #f0ebfa;
+    padding: 3rem 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.main__div:hover{
+    transform: rotate(40deg);
+    transition: transform 0.5s;
+}
+
+.black__plus{
+display: block;
+height: 2.5rem;
+width: 2.5rem;
+background-size: 3rem;
+background-repeat: no-repeat;
+background-position: center;
+}
+.black__plus:hover{
+    opacity: 2;
+    transform: rotate(40deg);
+    transition: transform 0.5s;
+}
+
+.main__input{
+    appearance: none;
+    height: 0;
+    width: 0;
+}
+.main__input:checked{
+    transform: rotate(40deg);
+    transition: transform 0.5s;
+
+}
+.main__label{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.main__label:hover{
+    cursor: pointer;
+    transform: rotate(40deg);
+    transition: transform 0.5s;
+}
+
+.main__img{
+width: 0;
+height: 0;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+transition: width 0.5s, height 0.5s, margin-bottom 0.5s;
+transition-timing-function:ease;
+}
+
+p{
+display: block;
+justify-content: center;
+color: #1d1919;
+
+}
